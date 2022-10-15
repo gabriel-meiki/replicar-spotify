@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 135px;
+}
+
+header div a img{
+    width: 170px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+header nav ul li #baixar::after{
+    content: "|";
+    margin-left: 28px;
+    color: white;
+    cursor: default;
+
+}
+
+
+header nav ul li a:hover{
+    color: rgb(56, 211, 76);
+}
+
+
+#fundoAzul{
+    background-color: #1D75DE;
+    color: white;
+    text-align: left;
+    padding: 4em 9.2em;
+}
+
+#fundoAzul h1{
+    font-size: 40px;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+#fundoAzul p{
+    font-size: 24px;
+    padding-top: 1.5em;
+    font-weight: bold;
+}
+
+#fundoAzul #botoesAzul{
+    margin-top: 2.6em;
+}
+
+
+
+#fundoAzul #botoesAzul button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 18px 40px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+footer {
+	padding: 50px;
+	background-color: #000;
+	margin: auto;
+}
+
+.nav-footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.footer-brand {
+	padding: 10px;
+	width: 200px;
+}
+
+.footer-brand img {
+	width: 150px;
+}
+
+.ul-footer {
+	display: flex;
+	width: 100%;
+	overflow-y: hidden;
+	padding: 15px;
+	margin: 20px 20px;
+}
+
+.ul-footer-info {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 15px;
+	width: 240px;
+	margin: 10px;
+	overflow-y: hidden;
+	color: whitesmoke;
+}
+
+
+.ul-footer-info strong {
+	margin: 30px 0px 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #919496;
+}
+
+.ul-footer-info li {
+	list-style: none;
+	margin: -5px;
+	padding: 20px 0px 15px;
+}
+
+.ul-footer-info li a {
+	text-decoration: none;
+	color: var(--txt-color);
+	font-size: 16px;
+	text-transform: capitalize;
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.ul-footer-info li a:hover {
+	color: chartreuse;
+}
+
+.social-network {
+	width: 100%;
+}
+
+.social-network ul {
+	display: flex;
+	height: 100%;
+}
+
+.social-network ul li {
+	list-style: none;
+	margin: 6px;
+	color: var(--txt-color);
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.nav-footer-coutry {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.nav-footer-coutry strong {
+	color: #919496;
+	font-size: 20px;
+}
+
+.nav-footer-final {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.nav-footer-final ul li {
+	margin: 10px;
+	list-style: none;
+}
+
+
+.nav-footer-final ul li a {
+	color: #919496;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.nav-footer-final ul li a:hover {
+	color: chartreuse;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.copyright span {
+	color: #919496;
+	font-size: 16px;
+	margin-right: 30px;
+}

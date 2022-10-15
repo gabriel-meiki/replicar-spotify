@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+div#degrade{
+    background-image: linear-gradient(173deg, #1ed760 0.001%,#121212, #121212, #121212, #121212, #121212, #121212)
+}
+
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 135px;
+}
+
+header div a img{
+    width: 170px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+header nav ul li #baixar::after{
+    content: "|";
+    margin-left: 28px;
+    color: white;
+    cursor: default;
+
+}
+
+
+header nav ul li a:hover{
+    color: rgb(56, 211, 76);
+}
+
+main{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+main section{
+    display: inline-block;
+}
+
+main #atendimento h3{
+    color: lightslategray;
+    font-size: 22px;
+    text-align: left;
+}
+
+main #atendimento h1{
+    font-size: 70px;
+    text-align: left;
+}
+
+main #atendimento p{
+    font-size: 22px;
+    color: lightslategray;
+    font-weight: bolder;
+    text-align: left;
+}
+
+main #atendimento p a{
+    color: white;
+    text-align: left
+}
+
+main #atendimento p a span{
+    text-decoration: none;
+    margin: auto 1.5px;
+}
+
+main #atendimento #barra-de-pesquisa{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+main #atendimento #barra-de-pesquisa div img{
+    background-color: transparent;
+    width: 30px;
+    position: absolute;
+    top: 18%;
+    transform: translate(25%);
+}
+
+main #atendimento #barra-de-pesquisa input{
+    padding: 20px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+
+main #atendimento #cartaz{
+    margin-bottom: 50px;
+}
+
+main section#ajuda{
+    background-color: #242424;
+    padding: 50px auto;
+}
+
+main section#ajuda ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 10px auto;
+    margin: 10px 340px;
+    margin-bottom: 40px;
+}
+
+main section#ajuda ul li{
+    font-size: 21px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section#ajuda ul li p#ajuda-titulo{
+    font-size: 26px;
+    font-weight: bold
+}
+
+main section#ajuda ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main section#visite h1{
+    margin: 35px auto;
+    font-size: 50px;
+}
+
+main section#visite p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+main section#visite button{
+    background-color: #1ed760;
+    padding: 15px 60px;
+    font-size: 18px;
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+main section#visite button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+footer {
+	padding: 50px;
+	background-color: #000;
+	margin: auto;
+}
+
+.nav-footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.footer-brand {
+	padding: 10px;
+	width: 200px;
+}
+
+.footer-brand img {
+	width: 150px;
+}
+
+.ul-footer {
+	display: flex;
+	width: 100%;
+	overflow-y: hidden;
+	padding: 15px;
+	margin: 20px 20px;
+}
+
+.ul-footer-info {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 15px;
+	width: 240px;
+	margin: 10px;
+	overflow-y: hidden;
+	color: whitesmoke;
+}
+
+
+.ul-footer-info strong {
+	margin: 30px 0px 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #919496;
+}
+
+.ul-footer-info li {
+	list-style: none;
+	margin: -5px;
+	padding: 20px 0px 15px;
+}
+
+.ul-footer-info li a {
+	text-decoration: none;
+	color: var(--txt-color);
+	font-size: 16px;
+	text-transform: capitalize;
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.ul-footer-info li a:hover {
+	color: chartreuse;
+}
+
+.social-network {
+	width: 100%;
+}
+
+.social-network ul {
+	display: flex;
+	height: 100%;
+}
+
+.social-network ul li {
+	list-style: none;
+	margin: 6px;
+	color: var(--txt-color);
+	font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.nav-footer-coutry {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.nav-footer-coutry strong {
+	color: #919496;
+	font-size: 20px;
+}
+
+.nav-footer-final {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.nav-footer-final ul li {
+	margin: 10px;
+	list-style: none;
+}
+
+
+.nav-footer-final ul li a {
+	color: #919496;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.nav-footer-final ul li a:hover {
+	color: chartreuse;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.copyright span {
+	color: #919496;
+	font-size: 16px;
+	margin-right: 30px;
+}
